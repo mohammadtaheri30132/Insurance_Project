@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ثبت نام</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="nav_landing">
+    <div class="wapper-nav">
+        <img class="icon_img" src="img/icons-9@2x.png" width="30px">
+        <div class="right_nav">
+            <div href="#" class="logo_navbar">
+                <img src="img/white_logo-20.png">
+            </div>
+            <a href="#">بیمه وسایل نقلیه</a>
+            <a href="#">بیمه اشخاص</a>
+            <a href="#">بیمه اموال</a>
+            <a href="#">بیمه مسئولیت</a>
+            <a href="#"> شرکت های بیمه</a>
+            <a href="#"> وبلاگ</a>
+        </div>
+        <div class="left_nav">
+            <img src="img/icons-user.png" alt="userIcon">
+            <a href="#" onclick="openlogin()">ورود/</a>
+            <a href="#">ثبت نام</a>
+        </div>
+        <div class="login_box">
+            <form action="" method="post">
+
+                <h5>ورود</h5>
+                <div class="form_login_landing">
+                    <div class="d-flex aling-center ">
+                        <span class="pl5"><img src="img/Group%2012332.png" width="10px" alt=""></span>
+                        <label>آدرس ایمیل</label>
+                    </div>
+                    <input type="tel" name="email" required>
+                    <div class="d-flex aling-center ">
+                        <span class="pl5"> <img src="img/Group%2012232.png" width="8px" alt=""></span>
+                        <label>رمز عبور</label>
+                    </div>
+                    <input type="tel" name="password" required>
+                    <a href="#">فراموشی رمز</a>
+                    <button type="submit" class="btn_login_landing">ورود</button>
+                </div>
+                <div class="register_link"><a href="#">ثبت نام</a></div>
+            </form>
+
+        </div>
+
+
+    </div>
+
+</nav>
+<div class="heder_reg">
+
+        <h1>ثبت نام</h1>
+
+    <div class="back_btn">
+        <span><img src="img/icons-angle-left@2x.png"></span>
+        <a href="#">بازگشت</a>
+    </div>
+</div>
+<div class="register_box">
+    <form action="" method="post">
+
+        <h4>ثبت نام</h4>
+        <div class="form_login_landing">
+            <div class="d-flex aling-center ">
+                <label>نام و نام خانوادگی</label>
+            </div>
+            <input type="text" name="fullname" >
+            <div class="d-flex aling-center ">
+                <label>شماره تماس</label>
+            </div>
+            <input type="tel" name="phone" >
+            <button type="button" class="send_code_btn">ارسال کد تایید</button>
+
+            <div class="d-flex aling-center ">
+                <label>کد تایید ارسال شده را وارد نماید:</label>
+            </div>
+            <input type="number" name="verify" >
+            <button type="submit" class="btn_login_landing">ثبت نام</button>
+        </div>
+        <div class="register_link">  قبلا ثبت نام کرده اید؟<a href="#">  وارد شوید!</a> </div>
+    </form>
+
+</div>
+<script src="js/js.js"></script>
+</body>
+</html>
